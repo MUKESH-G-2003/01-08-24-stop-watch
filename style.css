@@ -1,0 +1,41 @@
+.container{
+    width: 400px;
+    background-color: darkslategrey;
+    display: flex;
+    padding: 40px 20px;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.cont-in{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+button{
+    font-weight: 900;
+    cursor: pointer;
+    background-color: orangered;
+    padding: 5px;
+    border: 0;
+
+}
+.time{
+    font-size: 40px;
+}
